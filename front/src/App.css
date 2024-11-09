@@ -1,0 +1,57 @@
+.chat-room-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.chat-room-box {
+  width: 200px;
+  padding: 20px;
+  margin: 10px 0;
+  border: 1px solid #000;
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.chat-room-box:hover {
+  background-color: #f0f0f0;
+}
+
+.entry-exit-message {
+  text-align: center;
+  background-color: #d3d3d3;
+  padding: 8px;
+  margin: 10px auto;
+  border-radius: 8px;
+  width: fit-content;
+}
+
+.incoming-message {
+  background-color: #a6c9ff;
+  padding: 8px;
+  margin: 10px 10px;
+  border-radius: 8px;
+  text-align: left;
+  display: inline-block;
+  max-width: 15%;
+}
+
+
+.outgoing-message {
+  background-color: #ccffcc;
+  padding: 8px;
+  margin: 10px 10px;
+  border-radius: 8px;
+  text-align: right;
+  max-width: 60%;
+  margin-left: auto;
+}
+
+.chat-box {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
